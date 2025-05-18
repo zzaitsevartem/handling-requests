@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать обращение</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" href="/img/contact-form_3447545.svg">
+    <script src="/create.js" defer></script>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">Тёмная тема</button>
+    <h1>Создать обращение</h1>
+    <form id="request-form">
+        <div>
+            <label for="title">Тема:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="text">Текст обращения:</label>
+            <textarea id="text" name="text" required></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

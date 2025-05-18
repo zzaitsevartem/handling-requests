@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-theme form {
+    background-color: #2a2a2a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body.dark-theme form input,
+body.dark-theme form textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 2px solid #555;
+}
+
+form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #31a0c1;
+}
+
+body.dark-theme form button {
+    background-color: #46b8da;
+}
+
+body.dark-theme form button:hover {
+    background-color: #31a0c1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+body.dark-theme th,
+body.dark-theme td {
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+}
+
+th {
+    background-color: #5bc0de;
+    color: white;
+}
+
+body.dark-theme th {
+    background-color: #46b8da;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #31a0c1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.action-buttons button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3) {
+    background-color: #5bc0de;
+    color: white;
+}
+
+body.dark-theme button:nth-child(1),
+body.dark-theme button:nth-child(2),
+body.dark-theme button:nth-child(3) {
+    background-color: #46b8da;
+}
+
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.filters label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.filters input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+body.dark-theme .filters input {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 2px solid #555;
+}
+
+.filters button {
+    padding: 8px 15px;
+    background-color: #5bc0de;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.filters button:hover {
+    background-color: #31a0c1;
+}
+
+body.dark-theme .filters button {
+    background-color: #46b8da;
+}
+
+body.dark-theme .filters button:hover {
+    background-color: #31a0c1;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 15px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body.dark-theme .theme-toggle {
+    background-color: #46b8da;
+}
+
+body.dark-theme .theme-toggle:hover {
+    background-color: #31a0c1;
+}
+
+.swal2-popup.swal2-toast .swal2-icon-error,
+.swal2-popup.swal2-toast .swal2-icon-success {
+    background-color: #5bc0de !important;
+    color: white !important;
+}
+
+body.dark-theme .swal2-popup.swal2-toast .swal2-icon-error,
+body.dark-theme .swal2-popup.swal2-toast .swal2-icon-success {
+    background-color: #46b8da !important;
+}
+
+.swal2-popup.swal2-toast .swal2-title {
+    color: #5bc0de !important;
+}
+
+body.dark-theme .swal2-popup.swal2-toast .swal2-title {
+    color: #46b8da !important;
+}
+
+.swal2-confirm {
+    background-color: #5bc0de !important;
+}
+
+body.dark-theme .swal2-confirm {
+    background-color: #46b8da !important;
+}
+
+.swal2-confirm:hover {
+    background-color: #31a0c1 !important;
+}
+
+.swal2-cancel {
+    background-color: #5bc0de !important;
+}
+
+body.dark-theme .swal2-cancel {
+    background-color: #46b8da !important;
+}
+
+.swal2-cancel:hover {
+    background-color: #31a0c1 !important;
+}
